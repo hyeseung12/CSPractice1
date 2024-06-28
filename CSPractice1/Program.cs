@@ -94,6 +94,21 @@ namespace CSPratice1
 
             //#1 자료형 형변환
             // 굉장히 중요
+
+            //#2 if 조건문
+            bool condition = true;
+            if (condition)
+            {
+                // some
+            }
+            else if (condition)
+            {
+                //some2
+            }
+            else
+            {
+                //other
+            }
         }
     }
 }
