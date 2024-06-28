@@ -6,8 +6,18 @@ using System.Threading.Tasks;
 
 namespace CSPratice1
 {
+    class FirstClass
+    {
+
+    }
+
     internal class Program
     {
+        class ThirdClass
+        {
+
+        }
+
         static void Main(string[] args)
         {
             // #1 C# 기본
@@ -154,6 +164,8 @@ namespace CSPratice1
             Console.WriteLine(Math.Max(42, 1)); // 42
             Console.WriteLine(Math.PI); // 3.141592~~
 
+            // #4 21-3. 클래스 생성
+            
         }
     }
 }
