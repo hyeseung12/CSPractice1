@@ -109,6 +109,19 @@ namespace CSPratice1
             {
                 //other
             }
+
+            int v = 0;
+
+            //#2 switch 조건문
+            switch (v)
+            {
+                case 0:
+                    //
+                    break;
+                default:
+                    //
+                    break;
+            }
         }
     }
 }
