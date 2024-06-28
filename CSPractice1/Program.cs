@@ -129,6 +129,14 @@ namespace CSPratice1
             //#3 반복문과 배열
             int[] intArray = new int[100];
             Console.WriteLine(intArray[99]);
+
+            // #3 14-6 foreach 반복문
+            string[] foreachArray = { "사과", "배", "포도" };
+
+            foreach (var item in foreachArray)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
