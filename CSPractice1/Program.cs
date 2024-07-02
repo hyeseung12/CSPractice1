@@ -20,6 +20,11 @@ namespace CSPratice1
         {
             Console.WriteLine("(인스턴스) 생성자 호출");
         }
+
+        ~Sample()
+        {
+            Console.WriteLine("소멸자 호출");
+        }
     }
 
     class MyMath
@@ -235,12 +240,14 @@ namespace CSPratice1
             Console.WriteLine(MyMath.Abs(-10L)); // Abs(double)
             Console.WriteLine(MyMath.Abs(3.0f)); // Abs(double)
 
-            // #5 22-5. 생성자(+ 정적 생성자)
+            // #5 22-6. 생성자(+ 정적 생성자)
             Console.WriteLine("첫 번째 위치");
             Sample sample = new Sample();
             Console.WriteLine("두 번째 위치");
             Console.WriteLine(Sample.value);
             Console.WriteLine("세 번째 위치");
+
+            // #5 22-7. 소멸자
         }
     }
 }
